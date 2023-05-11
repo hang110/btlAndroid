@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783138030388",
+    "project_id": "btlandroid-ed2dd",
+    "storage_bucket": "btlandroid-ed2dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783138030388:android:1cb7786ea69d37efd89b61",
+        "android_client_info": {
+          "package_name": "com.btl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783138030388-oq62a8cvfa4kkqav2pdvhoe3gk73s641.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPxS_owxK6Ex7jLNepnpYNU8hNWqaQg28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783138030388-oq62a8cvfa4kkqav2pdvhoe3gk73s641.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

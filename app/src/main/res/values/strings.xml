@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BTL</string>
+    <string-array name="filter">
+        <item>Name</item>
+        <item>Point</item>
+    </string-array>
+</resources>

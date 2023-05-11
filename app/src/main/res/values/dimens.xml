@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_height">0dp</dimen>
+    <dimen name="chart_margin_top">50dp</dimen>
+    <dimen name="item_margin_top">25dp</dimen>
+    <dimen name="bottom_margin">30dp</dimen>
+    <dimen name="margin_horizontal">20dp</dimen>
+    <dimen name="seekbar_margin_horizontal">5dp</dimen>
+    <dimen name="item_padding">10dp</dimen>
+
+</resources>

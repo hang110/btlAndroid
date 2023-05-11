@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- InputText -->
+    <style name="inputText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginHorizontal">75dp</item>
+        <item name="android:paddingHorizontal">10dp</item>
+    </style>
+
+    <!-- Avatar -->
+    <style name="avatarImage">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/img</item>
+    </style>
+
+    <!-- ItemAvatar -->
+    <style name="itemImage">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/img</item>
+    </style>
+
+    <style name="linearSeekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="textSeekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

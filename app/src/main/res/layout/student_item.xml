@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+    android:background="@color/purple_200">
+
+    <FrameLayout
+        android:id="@+id/frame_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            style="@style/itemImage"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="5dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvt_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape_row_item"
+        android:paddingStart="5dp"
+        android:text="Nguyen Thi Hong"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/frame_logo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvt_date_of_birth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_row_item"
+        android:paddingStart="5dp"
+        android:text="30/06/2000"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame_logo"
+        app:layout_constraintTop_toBottomOf="@id/tvt_name" />
+
+    <TextView
+        android:id="@+id/tvt_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_row_item"
+        android:paddingStart="5dp"
+        android:text="Gender: Female"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame_logo"
+        app:layout_constraintTop_toBottomOf="@id/tvt_date_of_birth" />
+
+    <TextView
+        android:id="@+id/tvt_GPA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_row_item"
+        android:paddingStart="5dp"
+        android:text="GPA: 3.5"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/frame_logo"
+        app:layout_constraintTop_toBottomOf="@id/tvt_gender" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

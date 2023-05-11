@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Student Manager"
+        android:textColor="@color/purple_500"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="Student name: "
+            android:textColor="@color/purple_500" />
+
+        <EditText
+            android:id="@+id/edt_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:textColor="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="Student birthday: "
+            android:textColor="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/btn_student_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Choose your birth day!"
+            android:textColor="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="Student Gender: "
+            android:textColor="@color/purple_500" />
+
+        <RadioGroup
+            android:id="@+id/radio_gender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Male"
+                android:textColor="@color/purple_500" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/purple_500" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="Student GPA: "
+            android:textColor="@color/purple_500" />
+
+        <EditText
+            android:id="@+id/edt_student_gpa"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_insert"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="INSERT NEW STUDENT"
+        android:textColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="UPDATE NEW STUDENT"
+        android:textColor="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="75dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:text="DELETE STUDENT"
+        android:textColor="@color/purple_500" />
+
+</LinearLayout>
